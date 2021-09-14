@@ -8,7 +8,6 @@ namespace ByteBank.Modelos.Funcionarios
 {
     public class Auxiliar : Funcionario
     {
-        ///
         public Auxiliar(string cpf) : base(2000, cpf)
         {
         }

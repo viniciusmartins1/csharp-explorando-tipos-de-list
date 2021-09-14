@@ -25,4 +25,8 @@ namespace ByteBank.SistemaAgencia
             throw new NotImplementedException();
         }
     }
+
+    public class Funcionario
+    {
+    }
 }
