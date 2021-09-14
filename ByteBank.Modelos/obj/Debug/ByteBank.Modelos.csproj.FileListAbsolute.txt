@@ -1,0 +1,6 @@
+C:\Users\vmartins\Documents\Meus_Projetos\csharp-explorando-tipos-de-list\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.xml
+C:\Users\vmartins\Documents\Meus_Projetos\csharp-explorando-tipos-de-list\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.dll
+C:\Users\vmartins\Documents\Meus_Projetos\csharp-explorando-tipos-de-list\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.pdb
+C:\Users\vmartins\Documents\Meus_Projetos\csharp-explorando-tipos-de-list\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\vmartins\Documents\Meus_Projetos\csharp-explorando-tipos-de-list\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.dll
+C:\Users\vmartins\Documents\Meus_Projetos\csharp-explorando-tipos-de-list\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.pdb
