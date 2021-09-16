@@ -11,4 +11,6 @@ Repositório para prática e exercícios de um dos cursos da formação de progr
 >> - `Inicialização de arrays;`
 >> - `Argumentos opcionais;`
 >> - `Argumentos nomeados;`
+>> - `Criação de Indexadores;`
+>> - `Argumentos params;`
 
