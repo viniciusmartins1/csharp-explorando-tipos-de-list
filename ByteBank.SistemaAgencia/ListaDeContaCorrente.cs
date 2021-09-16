@@ -33,6 +33,14 @@ namespace ByteBank.SistemaAgencia
             _proximaPosicao++;
         }
 
+        public void AdicionarVarios(params ContaCorrente[] itens)
+        {
+            foreach(ContaCorrente conta in itens)
+            {
+                Adicionar(conta);
+            }
+        }
+
         public void Remover(ContaCorrente item)
         {
 

@@ -12,26 +12,39 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
+            
+        }
+
+        static int SomarVarios(params int[] numeros)
+        {
+            int acumulador = 0;
+            foreach(int numero in numeros)
+            {
+                acumulador += numero;
+            }
+
+            return acumulador;
+        }
+
+        static void TestaListaDeContaCorrente()
+        {
+             Console.WriteLine(SomarVarios(1, 2, 3, 5, 34525, 4));
 
             ListaDeContaCorrente lista = new ListaDeContaCorrente();
 
             ContaCorrente contaDoVini = new ContaCorrente(111, 111111);
 
-            lista.Adicionar(contaDoVini);
-
-
-
-            lista.Adicionar(new ContaCorrente(123, 1231312));
-            lista.Adicionar(new ContaCorrente(456, 8348049));
-            lista.Adicionar(new ContaCorrente(654, 8948433));
-            lista.Adicionar(new ContaCorrente(654, 8948433));
-            lista.Adicionar(new ContaCorrente(654, 8948433));
-            lista.Adicionar(new ContaCorrente(654, 8948433));
-            lista.Adicionar(new ContaCorrente(654, 8948433));
-            lista.Adicionar(new ContaCorrente(654, 8948433));
-            lista.Adicionar(new ContaCorrente(654, 8948433));
-            lista.Adicionar(new ContaCorrente(654, 8948433));
-            lista.Adicionar(new ContaCorrente(654, 8948433));
+            ContaCorrente[] contas = new ContaCorrente[]
+                {
+                    contaDoVini,
+                    new ContaCorrente(345, 464657),
+                    new ContaCorrente(576, 786766)
+                };
+            
+            lista.AdicionarVarios(contas);
+            lista.AdicionarVarios(
+                contaDoVini,
+                new ContaCorrente(874, 98459354));
 
             for(int i = 0; i < lista.Tamanho; i++)
             {
