@@ -18,19 +18,12 @@ namespace ByteBank.SistemaAgencia
             idades.Adicionar(5);
             idades.AdicionarVarios(5, 2, 2);
 
-            
-            ListaDeObject  listaDeIdades = new ListaDeObject();
-
-            listaDeIdades.Adicionar(10);
-            listaDeIdades.Adicionar(5);
-            listaDeIdades.Adicionar(4);
-            listaDeIdades.AdicionarVarios(16, 23, 60);
-
-            for(int i = 0; i < listaDeIdades.Tamanho; i++)
+            for(int i = 0; i < idades.Tamanho; i++)
             {
-                int idade = (int)listaDeIdades[i];
-                Console.WriteLine($"Idade no índice {i} : {idade}");
+                int idadeAtual = idades[i];
             }
+
+            
         }
 
         static int SomarVarios(params int[] numeros)
