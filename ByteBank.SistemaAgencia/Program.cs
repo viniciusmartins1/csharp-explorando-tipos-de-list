@@ -22,7 +22,7 @@ namespace ByteBank.SistemaAgencia
 
             ListExtensoes.AdicionarVarios(idades, 2, 1, 3);
 
-            //idades.AddRange()
+            idades.AdicionarVarios(1, 2, 4, 3);
 
             for(int i = 0; i < idades.Count; i++)
             {
