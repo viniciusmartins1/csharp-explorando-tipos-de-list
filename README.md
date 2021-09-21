@@ -1,12 +1,13 @@
 
 
+
 ## **Array e tipos genéricos: Explorando os tipos de listas do C#**
 
 
 Repositório para prática e exercícios de um dos cursos da formação de programação com **C#** do [Alura](https://alura.com.br/). 
 <br/><br/><br/>
 
->#### **Tópicos Abordados**:
+>#### **Arrays e tipos genéricos**:
 >> - `Arrays;`
 >> - `Inicialização de arrays;`
 >> - `Argumentos opcionais;`
@@ -14,4 +15,4 @@ Repositório para prática e exercícios de um dos cursos da formação de progr
 >> - `Criação de Indexadores;`
 >> - `Argumentos params;`
 >> - `Classes Genéricas;`
-
+>#### ****List, lambda, linq****:
