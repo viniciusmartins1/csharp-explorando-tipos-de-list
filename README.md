@@ -16,3 +16,5 @@ Repositório para prática e exercícios de um dos cursos da formação de progr
 >> - `Argumentos params;`
 >> - `Classes Genéricas;`
 >#### ****List, lambda, linq****:
+>> - `List<>;`
+>> - `Métodos de Extensão;`
