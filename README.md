@@ -19,3 +19,5 @@ Repositório para prática e exercícios de um dos cursos da formação de progr
 >> - `List<>;`
 >> - `Métodos de Extensão;`
 >> - `Métodos Genéricos;`
+>> - `Tipo var;`
+>> - `Sort();`
