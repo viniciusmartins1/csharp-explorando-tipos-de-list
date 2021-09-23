@@ -14,6 +14,11 @@ namespace ByteBank.SistemaAgencia
         static void Main(string[] args)
         {
 
+
+            var conta = new ContaCorrente(1231, 131312);
+            var gerenciador = new GerenciadorBonificacao();
+            var gerenciadores = new List<GerenciadorBonificacao>();
+
             List<int> idades = new List<int>();
 
             idades.Add(5);
