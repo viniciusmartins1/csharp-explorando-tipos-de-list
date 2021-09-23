@@ -13,22 +13,62 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
+            
+            var contas = new List<ContaCorrente>()
+            {
+                new ContaCorrente(231, 67687),
+                new ContaCorrente(233, 78567),
+                new ContaCorrente(276, 43423),
+                new ContaCorrente(953, 43232),
 
+            };
 
-            var conta = new ContaCorrente(1231, 131312);
-            var gerenciador = new GerenciadorBonificacao();
-            var gerenciadores = new List<GerenciadorBonificacao>();
+            //contas.Sort();
 
-            List<int> idades = new List<int>();
+            foreach (var conta in contas)       
+            {
+                Console.WriteLine($"Conta número{conta.Numero}, ag. {conta.Agencia}");
+            }
 
+            
+        }
+
+        static void TestaSort()
+        {
+
+             var nomes = new List<string>()
+            {
+                "Guilherme",
+                "Luana",
+                "Wellington",
+                "Ana"
+            };
+            
+            nomes.Sort();
+
+            foreach (var nome in nomes)
+            {
+                Console.WriteLine($"{nome}");
+            }
+
+            Console.ReadLine();
+
+            var idades = new List<int>();
+
+            idades.Add(1);
             idades.Add(5);
-            idades.Add(2);
-            idades.Add(9);
-            idades.Add(5);
+            idades.Add(14);
+            idades.Add(25);
+            idades.Add(38);
+            idades.Add(61);
 
             //ListExtensoes.AdicionarVarios(idades, 2, 1, 3);
 
-            idades.AdicionarVarios(1, 2, 4, 3);
+            idades.AdicionarVarios(45, 89, 12);
+
+            idades.AdicionarVarios(99, -1);
+
+            idades.Sort();
 
             for(int i = 0; i < idades.Count; i++)
             {
@@ -36,7 +76,6 @@ namespace ByteBank.SistemaAgencia
                 Console.WriteLine(idadeAtual);
             }
 
-            
         }
 
         static int SomarVarios(params int[] numeros)
