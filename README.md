@@ -23,3 +23,5 @@ Repositório para prática e exercícios de um dos cursos da formação de progr
 >> - `Sort();`
 >> - `IComparable;`
 >> - `IComparer<T>;`
+>> - `OrderBy();`
+>> - `Expressões lambdas;`
