@@ -22,3 +22,4 @@ Repositório para prática e exercícios de um dos cursos da formação de progr
 >> - `Tipo var;`
 >> - `Sort();`
 >> - `IComparable;`
+>> - `IComparer<T>;`
